@@ -1,0 +1,161 @@
+nav{
+  background-color:rgba(0, 255, 115, 0.8);
+  padding:5px;
+  border-bottom: black 10px;
+  letter-spacing: 1px;
+  margin-bottom: 200px;
+  opacity: 1;
+
+}
+nav img{
+  float: left;
+}
+
+nav ul{
+text-align: right;
+margin-right: 40px;
+}
+li{
+  display: inline-block;
+  padding: 4px;
+  font-size:25px;
+  color: black; 
+}
+li a{
+  text-decoration: none;
+  color: black;
+}
+li a:hover{
+  color: white;
+}
+div.Start{
+  text-align: center;
+}
+.Start h1{
+  letter-spacing: 10px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+}
+.Start p{
+  width: 275px;
+  position: relative;
+  left: 615px;
+  border-top: grey solid 3px;
+  border-bottom:grey solid 3px;
+  margin-bottom: 50px;
+  color: black;
+  font-size: 25px;
+  font-family:Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+}
+.Start a{
+  width: 300px;
+  padding: 20px;
+  color: black;
+  font-size: 25px;
+  letter-spacing: 2px;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+  background-color:rgba(0, 255, 115, 0.562);
+  border: black 2px;
+  border-radius: 4px;
+}
+a:hover{
+  color: white;
+}
+body{
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  
+}
+.About{
+  display: inline-block;
+  margin: 50px;
+  padding: 20px;
+  background-color: white;
+  color: black;
+}
+.About p{
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.About img{
+  float: left;
+  margin-right: 30px;
+}
+.About h2{
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  
+}
+.Events{
+  background-color:rgba(49, 49, 49, 0.822);
+  text-align: center;
+}
+.Events h2{
+  color:white;
+  text-align: center;
+  font-size:40px;
+  margin-bottom: 5px;
+}
+.Events p{
+  height: 100px;
+  width: 200px;
+  text-align: center;
+  font-size:25px;
+  font-weight: bolder;
+  display: inline-block;
+  color:rgba(0, 255, 115, 0.562);
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 15px 120px;
+}
+.Events p span{
+  color: white;
+  font-weight: normal;
+}
+.Contact{
+  width: 100%;
+  margin-top: 50px;
+  background-color: white;
+  text-align: center;
+}
+.Contact h2{
+  color:black;
+  text-align: center;
+  font-size:40px;
+  margin-bottom: 5px;
+}
+.Contact p span{
+  font-size: 24px;
+}
+.Contact p{
+  font-size: 20px;
+}
+footer{
+  margin-top: 20px;
+  height: 40px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  font-size: 25px;
+}
+footer a{
+  position: relative;
+  left: 500px;
+  width: 40px;
+  background-color:rgb(134, 124, 124);
+  color:black;
+  border: solid white 2px;
+  border-radius: 3px;
+  text-decoration: none;
+
+}
+
+
+
