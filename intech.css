@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 nav{
   background-color:rgba(0, 255, 115, 0.8);
   padding:5px;
@@ -5,6 +8,8 @@ nav{
   letter-spacing: 1px;
   margin-bottom: 200px;
   opacity: 1;
+  position: relative;
+  right: auto;
 
 }
 nav img{
@@ -37,18 +42,21 @@ div.Start{
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 50px;
+  margin: auto;
+  text-align: center;
+  overflow: hidden;
 }
 .Start p{
-  width: 275px;
-  position: relative;
-  left: 615px;
-  border-top: grey solid 3px;
-  border-bottom:grey solid 3px;
-  margin-bottom: 50px;
-  color: black;
+  position: static;
+  margin: auto;
+  width: max-content;
+  border-top: 3px solid gray;
+  border-bottom: 3px solid gray;
+  padding: 5px;
   font-size: 25px;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 2px;
+
 }
 .Start a{
   width: 300px;
@@ -61,6 +69,7 @@ div.Start{
   background-color:rgba(0, 255, 115, 0.562);
   border: black 2px;
   border-radius: 4px;
+  margin-top: auto;
 }
 a:hover{
   color: white;
@@ -112,7 +121,7 @@ body{
   color:rgba(0, 255, 115, 0.562);
   border: 3px solid black;
   border-radius: 10px;
-  margin: 15px 120px;
+  margin: 15px 5%;
 }
 .Events p span{
   color: white;
@@ -146,14 +155,16 @@ footer{
   font-size: 25px;
 }
 footer a{
-  position: relative;
-  left: 500px;
-  width: 40px;
-  background-color:rgb(134, 124, 124);
-  color:black;
-  border: solid white 2px;
+  height: 30px;
+  width: 30px;
+  float: right;
+  margin-top: 7px;
+  margin-right: 15px;
+  background-color:#2ecc71;
+  color: white;
   border-radius: 3px;
   text-decoration: none;
+  text-align: center;
 
 }
 
